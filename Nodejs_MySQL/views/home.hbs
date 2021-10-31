@@ -1,0 +1,42 @@
+{{!-- <h1>Welcome to Charusat blog</h1> --}}
+
+<nav class="navbar-dark bg-dark navbar">
+    <a href="#" class="navbar-brand">Details</a>
+</nav>
+
+
+<form action="/show-data" method="post" class="row g-3" >
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Subject Code :</label>
+    <input type="number" class="form-control" name="scode" id="subjectcode" required>
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Subject Name:  </label>
+    <input type="text" class="form-control" name="sname" id="subjectname" required>
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Institute Name: </label>
+    <input type="text" class="form-control" name="iname" id="institutename" required>
+  </div>
+  <div class="col-12">
+    <label for="inputCity" class="form-label">Department Name:</label>
+    <input type="text" class="form-control" name="dname" id="departmentname" required>
+  </div>
+ <br><br>
+ <div class="col-md-4">
+    <label for="inputState" class="form-label">Semester: </label>
+    <select id="inputState" class="form-select" required name="sem" id="semester">
+        <option selected>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+    </select>
+  </div>
+  
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+

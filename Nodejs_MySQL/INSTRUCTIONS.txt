@@ -1,0 +1,2 @@
+open terminal and write npm init -y to build package.json and write 
+npm install --save express express-handlebars
